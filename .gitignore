@@ -1,0 +1,32 @@
+# Виртуальное окружение
+venv/
+
+# Файлы настроек PyCharm/JetBrains IDE
+.idea/
+
+# Файлы кэша Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Логи
+*.log
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы ОС
+desktop.ini
+
+# Файлы Jupyter Notebook Checkpoints (если используешь)
+.ipynb_checkpoints/
+
+# Исключить временные файлы/папки
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Другие файлы
+.env             # Если у тебя есть файл с секретными данными
