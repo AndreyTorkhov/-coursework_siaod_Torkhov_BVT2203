@@ -6,12 +6,12 @@
 ## Установка
 1. Склонируйте репозиторий:
    ```bash
-   git clone <ссылка на репозиторий>
+   git clone https://github.com/AndreyTorkhov/-coursework_siaod_Torkhov_BVT2203.git
    ```
 
 2. Перейдите в директорию проекта:
    ```bash
-   cd <имя проекта>
+   cd -coursework_siaod_Torkhov_BVT2203
    ```
    
 3. Создайте виртуальное окружение и активируйте его:

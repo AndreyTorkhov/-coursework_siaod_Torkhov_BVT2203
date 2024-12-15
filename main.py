@@ -643,7 +643,7 @@ def compare_experiments(experiment_data: List[Dict[str, Any]]) -> None:
         labels={'line1': 'Жадный алгоритм', 'line2': 'Генетический алгоритм'},
         y_label='Время выполнения (сек)',
         title='Сравнение времени выполнения алгоритмов',
-        output_file='execution_time_comparison.png',
+        output_file='result/execution_time_comparison.png',
         value_offsets={'line1': 0.01, 'line2': 0.01}
     )
 
@@ -654,7 +654,7 @@ def compare_experiments(experiment_data: List[Dict[str, Any]]) -> None:
         labels={'line1': 'Жадный алгоритм', 'line2': 'Генетический алгоритм'},
         y_label='Количество водителей',
         title='Сравнение количества водителей',
-        output_file='drivers_count_comparison.png',
+        output_file='result/drivers_count_comparison.png',
         value_offsets={'line1': 0.1, 'line2': 0.1}
     )
 
@@ -665,7 +665,7 @@ def compare_experiments(experiment_data: List[Dict[str, Any]]) -> None:
         labels={'line1': 'Жадный алгоритм', 'line2': 'Генетический алгоритм'},
         y_label='Прибыль (руб.)',
         title='Сравнение прибыли алгоритмов',
-        output_file='profit_comparison.png',
+        output_file='result/profit_comparison.png',
         value_offsets={'line1': 100, 'line2': 100}
     )
 
